@@ -14,3 +14,6 @@ git add anotherfile
 git commit -m <message>
 
 git status
+git diff readme.txt
+
+git log --pretty=oneline
