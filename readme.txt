@@ -17,3 +17,13 @@ git status
 git diff readme.txt
 
 git log --pretty=oneline
+
+%past
+git reset --hard HEAD^ % commit id
+cat readme.txt
+
+git reset --hard 476023e % or 476023e (commit id)
+cat readme.txt
+
+%future
+git reflog  % to find the commit id
